@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+<link href="~/Assests/cs/StyleSheet1.css" rel="stylesheet" />
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1"></span>
+    </div>
+
+    <input type="text" placeholder="Email" id="email" name="email" />
+    <hr>
+
+    <input type="text" placeholder="Password" id="password" name="password" />
+    <hr>
+
+</div>
+<script src="jquery-3.5.1.min.js"></script>
+<button value="button" type="submit" onclick="Login()">Login </button>
+<br />
+
+@section Scripts
+{
+    <script src="~/Assests/js/JavaScript.js"></script>
+}
